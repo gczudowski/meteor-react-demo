@@ -1,11 +1,12 @@
 # meteor-react-demo
 
-Instalacja Meteora:
+**Instalacja Meteora:**
 
 https://www.meteor.com/install
 
 
-Uruchomienie:
+
+**Uruchomienie:**
 
 1. otwórz command line
 
