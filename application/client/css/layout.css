@@ -1,0 +1,120 @@
+.layout-wrapper {
+	width:100%;
+	height: 100%;
+	background-color: #FFFFFF;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.header-wrapper {
+	background-color: #0099CC;
+	margin: auto;
+	height: 40px;
+	width: 100%;
+	-webkit-box-shadow: 0px -15px 10px 17px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px -15px 10px 17px rgba(0,0,0,0.5);
+	box-shadow: 0px -15px 10px 17px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
+}
+
+.header_body {
+	max-width: 1024px;
+	background-color: inherit;
+	margin: auto;
+	text-align: left;
+	height: inherit;
+	position: relative;
+}
+
+.headerTitleFont {
+	font-weight: bold;
+	font-size: 26px;
+	color: #FFFFFF;
+	margin-left: 60px;
+	margin-top: 3px;
+	position: absolute;
+}
+
+.view-body-normal {
+	width:100%;
+	height: 90%;
+	max-width: 1024px;
+	background-color: white;
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-left: 0%;
+	text-align: left;
+	margin-top: 11px;
+}
+
+.view-body-centered {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 30vh;
+}
+
+body {
+	text-align: center;
+	margin-left : 0px;
+	margin-top : 0px;
+	margin-right : 0px;
+	margin-bottom : 0px;
+	font-family: Arial;
+	color: #000000;
+	font-size: 15px;
+}
+
+.menu {position:absolute; right: 0px; margin: 0; padding: 0px; font-family: Arial; max-width: 300px}
+.menu ul,
+.menu li,
+.menu span,
+.menu a {
+  outline: none;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  margin: 0;
+}
+.menu ul {
+    position: relative; list-style: none outside none;list-style-type: none; list-style-image: none; margin-left: 0; padding-left: 0; margin-bottom: 0; padding-bottom: 0; list-style-position: outside; margin-left:0px;
+}
+.menu ul {display:inline;z-index:95;text-align: right; margin: 0; letter-spacing  :-4px;}
+.menu ul li {position:relative;list-style:none; margin: 0; letter-spacing  :0px;}
+
+
+.menu ul .clicker {position:relative;text-decoration:none;-webkit-tap-highlight-color: transparent; margin:0;}
+.menu ul .clicker:hover,.menu ul .active {text-decoration:none;-webkit-tap-highlight-color: transparent; margin:0;}
+
+
+.menu ul > li > img {position:absolute;top:12px;left:12px;}
+
+.menu > ul > li > ul > li {
+margin: 0;
+
+}
+
+.menu ul li ul {position:absolute;left:auto;right:0; text-align: left;
+    box-shadow: 0px 2px 4px silver, -3px 2px 4px silver, 3px 2px 4px silver;
+	font-size: 0px;
+	margin: 0;
+	background:#F4F6F8;
+}
+
+.menu ul li ul li div {
+font-size: 14px; display:block;padding:10px 10px 10px 40px;background:#FFFFFF;color:#0A2B65;text-decoration:none; width:250px; text-decoration: none;list-style: none;   line-height: 140%;
+ margin: 0; border-bottom: 0px solid #FFFFFF;border-top: 0px solid #FFFFFF;
+}
+
+.menu ul ul li:hover div {background:#DCEDFF;color:#0A2B65;}
+
+/* Fallbacks */
+.menu .no-js ul {display:none;}
+.menu .no-js:hover ul {display:block;}
+
+.clean-code {
+	margin-top: 20%;
+	font-size: 80px;
+	background-color: #000000;
+	color: #FFFFFF;
+}

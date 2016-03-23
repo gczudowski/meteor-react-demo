@@ -1,0 +1,81 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #000d1a;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #000d1a;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #000d1a;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #000d1a;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #000d1a;
+}
+
+.input-responsive-normal {
+    margin: auto;
+    display: block;
+    width: 30%;
+    min-width: 350px;
+    height: 25px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: #F4F6F8;
+    font-size: 17px;
+    outline: 0;
+    opacity: 0.5;
+    color: #000d1a;
+}
+
+.button-responsive-normal {
+    clear: both;
+    margin: auto;
+    display: block;
+    width: 30%;
+    min-width: 350px;
+    height: 25px;
+    border-radius: 2px;
+    border: 0px;
+    background-color: #0099CC;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+/*  big phones - poziomo */
+@media only screen and (max-width: 700px) {
+	.input-responsive-normal {
+	    width: 90%;
+	    min-width: 0px;
+	}
+	.button-responsive-normal {
+	    width: 90%;
+	    min-width: 0px;
+	}
+}
+
+/* medium phones - poziomo */
+@media only screen and (max-width: 640px) {
+
+}
+
+/* small phones - poziomo */
+@media only screen and (max-width: 540px) {
+
+}
+
+/* phones - pionowo */
+@media only screen and (max-width: 450px) {
+
+}
+
+/* ultra small devices */
+@media only screen and (max-width: 300px) {
+
+}
