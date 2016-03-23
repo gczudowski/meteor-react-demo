@@ -10,10 +10,8 @@ https://www.meteor.com/install
 
 1. otwórz command line
 
-2. cd scieżka_do_projektu
+2. $ cd scieżka_do_projektu
 
-3. cd application
-
-4. meteor
+3. $ meteor
 
 Powodzenia!
